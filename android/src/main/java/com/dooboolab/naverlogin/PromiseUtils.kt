@@ -1,8 +1,13 @@
 package com.dooboolab.naverlogin
 
 import android.util.Log
-import com.facebook.react.bridge.ObjectAlreadyConsumedException
+//import com.facebook.react.bridge.ObjectAlreadyConsumedException
 import com.facebook.react.bridge.Promise
+import com.facebook.proguard.annotations.DoNotStrip
+
+//exact copy of com.facebook.react.bridge., it would working as same.
+@DoNotStrip
+class ObjectAlreadyConsumedException(detailMessage: String) : RuntimeException(detailMessage)
 
 /**
  * Extension functions used to simplify promise handling since we don't
