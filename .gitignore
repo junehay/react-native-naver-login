@@ -17,8 +17,6 @@
 !**/.yarn/versions
 !**/.env.sample
 
-dist/
-
 # Xcode
 build/
 *.pbxuser
@@ -51,9 +49,7 @@ buck-out/
 \.buckd/
 *.keystore
 
-index.d.ts
-index.js
-index.js.flow
+
 
 
 
